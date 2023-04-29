@@ -1,0 +1,24 @@
+<launch>
+    <param name="isMoveOn" type="bool" value="false"/>
+    <param name="mode" type= "int" value = "2"/>
+    <param name="X_present" type="int" value = "0"/>
+    <param name="Y_present" type="int" value = "0"/>
+    <param name="Theta_present" type="int" value = "0"/>
+    <param name="X_position" type="int" value = "0"/>
+    <param name="Y_position" type="int" value = "0"/>
+    <param name="Theta" type="int" value = "0"/>
+    <param name="Alpha" type="int" value = "0"/>
+    <param name="Alpha_present" type = "int" value = "0"/>
+    <param name="Beta" type="int" value = "0"/>
+    <param name="Beta_present" type = "int" value = "0"/>
+    <param name="Pick" type="int" value = "0"/>
+    <param name="Load" type="int" value = "0"/>
+    <param name="Launch" type="int" value = "0"/>
+    <param name="Speed" type="int" value = "0"/>
+    <param name="Speed_present" type="int" value = "0"/>
+    <node pkg="joy" type = "joy_node" name = "joy_node"/>
+    <!-- <node pkg="write_message" name = "write_message"/> -->
+    <node pkg="rbc_2023" type = "controlUI" name = "controlUI" />
+    <!-- <node pkg="rqt_gui" type = "rqt_gui" name = "rqt_gui"/> -->
+
+</launch>

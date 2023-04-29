@@ -1,0 +1,2 @@
+set(rbc_2023_MESSAGE_FILES "/home/rbc/ros_work/rbc_ws/src/rbc_2023/msg/UI2node.msg;/home/rbc/ros_work/rbc_ws/src/rbc_2023/msg/node2UI.msg;/home/rbc/ros_work/rbc_ws/src/rbc_2023/msg/xy.msg;/home/rbc/ros_work/rbc_ws/src/rbc_2023/msg/recive.msg;/home/rbc/ros_work/rbc_ws/src/rbc_2023/msg/imu.msg")
+set(rbc_2023_SERVICE_FILES "")
